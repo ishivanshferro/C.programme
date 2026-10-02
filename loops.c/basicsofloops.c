@@ -1,12 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    int n;
+    int n,i;
     printf("enter the number : ");
     scanf("%d", &n);
-    for (int i = 1; i <= n; i++)
+    for ( i = 1; i <= n; i++)
     {
         printf("hello world\n");
     }
+    printf("the value of n is : %d", i);
     return 0;
 }
