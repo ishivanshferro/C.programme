@@ -4,11 +4,11 @@ int main()
     int x;
     printf("Enter the number : ");
     scanf("%d", &x);
-    int a = 1;
+    int a = 3;
     for (int i = 1; i <= x; i++)
     {
         printf("%d\n", a);
-        a = a * 2;
+        a = a * 4;
     }
     return 0;
 }
