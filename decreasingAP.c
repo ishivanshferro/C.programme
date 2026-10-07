@@ -6,6 +6,6 @@ int main(){
     int x = 100;
     for(int i = 1 ; i <= n ; i++){
     printf("%d\n",x);
-    x = x - 3;
+    x = x - 4;
     }
 }
