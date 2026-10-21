@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main (){
-    int n = 1000;
-    for(int i = 1; i <= n ; i=i+2){
-        if(i%2==0){
-            printf("%d\n",i);
-        }
+    int number;
+    printf("enter the number : ");
+    scanf("%d",&number);
+    for(int i = 1; i <= number ; i++){
+        printf("hello\n");
     }
     return 0;
 }
